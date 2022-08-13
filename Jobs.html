@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="JavaJam.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>JavaJam Coffee House</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="Menu.html"> Menu</a></li>
+          <li><a href="Music.html"> Music</a></li>
+          <li><a href="Jobs.html"> Jobs</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div id="herojobs"></div>
+        <h2>Jobs at JavaJam</h2>
+        <p>
+            Want to work at JavaJam? Fill out the form
+            below to start yourapplication.<br>
+            Required fields are marked with an asterisk (*).
+        </p>
+        <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+            <label for="myName">Name*:</label>
+            <input type="text" id="myName" name="myName" required/>
+            <label for="myEmail">E-mail*:</label>
+            <input type="email"id="myEmail" name="myEmail" required/>
+            <label for="myExperience">Experience*:</label>
+            <textarea rows="2" cols="20" id="myExperience" name="myExperience" required></textarea>
+            <input type="submit" value="Apply now" id="mySubmit" />
+        </form>
+        
+      </main>
+      <footer>
+        <small><i>Copyright © 2018 JavaJam Coffee House</i></small
+        ><br />
+        <a href="url"
+          ><small><i>andy@pong.com</i></small></a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
